@@ -3,7 +3,7 @@ Pixel generation game using heuristic search algorithm:
 
 How it works:
 
-
+![Game image](hs_pixel_gen.png)
 Algorithm starts from a single pixel and expands outward, choosing new pixels based on priority. This is similar to how A search* finds the shortest path in a maze.
 
 Step-by-Step Process:
