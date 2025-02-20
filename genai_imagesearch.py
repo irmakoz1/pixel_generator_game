@@ -4,6 +4,7 @@ import heapq
 
 # Constants
 WIDTH, HEIGHT = 500, 500
+height=300
 PIXEL_SIZE = 10
 ROWS, COLS = WIDTH // PIXEL_SIZE, HEIGHT // PIXEL_SIZE
 
@@ -16,11 +17,11 @@ RED = (255, 0, 0)
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Informed Search Pixel Generator")
-font = pygame.font.Font(None, 36)
+font = pygame.font.Font(None, 15)
 
 # Button Setup
-button_rect = pygame.Rect(20, HEIGHT - 50, 150, 30)
-button_increment_rect = pygame.Rect(200, HEIGHT - 50, 200, 30)
+button_rect = pygame.Rect(20, HEIGHT - 50, 100, 30)
+button_increment_rect = pygame.Rect(200, HEIGHT - 50, 100, 30)
 
 # Global pixel count
 pixel_limit = 1
@@ -70,11 +71,11 @@ def main():
         draw_pixels(pixels)
         
         # Draw buttons
-        pygame.draw.rect(screen, RED, button_rect)
+        pygame.draw.rect(screen, BLACK, button_rect)
         text = font.render("New Image", True, WHITE)
         screen.blit(text, (30, HEIGHT - 45))
         
-        pygame.draw.rect(screen, RED, button_increment_rect)
+        pygame.draw.rect(screen, BLACK, button_increment_rect)
         increment_text = font.render("Increase Pixels", True, WHITE)
         screen.blit(increment_text, (210, HEIGHT - 45))
         
