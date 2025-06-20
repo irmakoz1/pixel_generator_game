@@ -5,7 +5,7 @@ from typing import List, Tuple, Set
 
 # Constants
 WIDTH, HEIGHT = 750, 750
-height = 300  # Unused; consider removing or using appropriately
+height = 300  
 PIXEL_SIZE = 10
 ROWS, COLS = WIDTH // PIXEL_SIZE, HEIGHT // PIXEL_SIZE
 
