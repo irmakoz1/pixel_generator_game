@@ -41,6 +41,9 @@ The closest pixels "X" get priority and expand first.
 Further pixels "-" are processed later.
 
 **How to play:**
+
 1- Download the zip file or clone the repo.
+
 2- Create a virtual environment and install the requirements.txt file using pip.
+
 3- Run the script image_search_game.py from python terminal. A new window will open, enjoy the game!
