@@ -1,6 +1,5 @@
 Pixel generation game using heuristic search algorithm:
 
-**Next Step: Single Executable File to Play the Game**
 
 
 ![Game image](hs_pixel_gen.png)
@@ -49,3 +48,7 @@ Further pixels "-" are processed later.
 3- Run the script image_search_game.py from python terminal. A new window will open, you can control the shape by creating a new random image (left button) or increasing pixels of the current image (right button)
 
 Enjoy the game!
+
+
+**Next Step: Single Executable File to Play the Game**
+
