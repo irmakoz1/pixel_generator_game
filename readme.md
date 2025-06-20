@@ -9,10 +9,15 @@ Pixel generation game using heuristic search algorithm:
 Algorithm starts from a single pixel and expands outward, choosing new pixels based on priority. 
 
 *Step-by-Step Process:*
+
 1- Start from a random pixel (e.g., (x, y) = (5, 5))
+
 2- Push the pixel into a priority queue (heapq)
+
 3- Expand to neighboring pixels (up, down, left, right)
+
 4- Prioritize which pixel to expand next using a heuristic function
+
 5- Repeat until enough pixels are drawn
 
 - Pixels are sorted by priority using heapq (a min-heap in Python).
