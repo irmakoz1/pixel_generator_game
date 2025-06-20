@@ -1,5 +1,6 @@
 Pixel generation game using heuristic search algorithm:
 
+**Next Step: Single Executable File to Play the Game**
 
 
 ![Game image](hs_pixel_gen.png)
