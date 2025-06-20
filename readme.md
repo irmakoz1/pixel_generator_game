@@ -46,4 +46,6 @@ Further pixels "-" are processed later.
 
 2- Create a virtual environment and install the requirements.txt file using pip.
 
-3- Run the script image_search_game.py from python terminal. A new window will open, enjoy the game!
+3- Run the script image_search_game.py from python terminal. A new window will open, you can control the shape by creating a new random image (left button) or increasing pixels of the current image (right button)
+
+Enjoy the game!
