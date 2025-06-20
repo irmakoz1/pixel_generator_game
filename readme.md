@@ -25,10 +25,9 @@ Algorithm starts from a single pixel and expands outward, choosing new pixels ba
 - The heuristic function helps determine priority using Manhattan Distance.
 - Pixels closer to the center get processed first. This makes pixels spread outward in a structured way, instead of randomly.
 - The expansion process picks a random start pixel, then adds it to the priority queue with priority 0.
-- Algorithm looks at neighbors (up, down, left, right). If not visited, it calculates priority based on this unformation:
+- Algorithm looks at neighbors (up, down, left, right). If not visited, it calculates priority based on this information.
 
 Visualization: 
-If the center is the goal, pixels expand outward in a controlled way.
 
         -  -  -  -  -  
         -  X  X  X  -  
