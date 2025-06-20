@@ -29,11 +29,13 @@ Algorithm starts from a single pixel and expands outward, choosing new pixels ba
 
 Visualization: 
 If the center is the goal, pixels expand outward in a controlled way.
+
         -  -  -  -  -  
         -  X  X  X  -  
         -  X  O  X  -  
         -  X  X  X  -  
         -  -  -  -  -  
+        
 The center pixel "O" starts first.
 The closest pixels "X" get priority and expand first.
 Further pixels "-" are processed later.
